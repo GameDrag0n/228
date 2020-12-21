@@ -16,4 +16,6 @@ if ($user_email!=0 && $user_pass!=0){
  }
 $mysql->close();
 mysqli_close($link);
+
+echo "1";
 ?>
